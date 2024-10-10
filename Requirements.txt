@@ -1,0 +1,15 @@
+Step One:
+	Open Command Prompt (cmd) and navigate to the directory. "cd ecommerce_website"
+Step Two:
+	Run the code "pipenv install" then after "pipenv shell"
+	Apply all migrations, run the code "python manage.py migrate"
+Step Three:
+	Create superuser to access the admin and Follow the prompts to enter a username, email (optional), and password for the superuser., run code "python manage.py createsuperuser"
+	Start the sever, run code "py manage.py runserver"
+	Access the admin page to add categories and products "localhost: 127.0.0:8000/admin"
+
+ADDITIONAL NOTES:
+Make sure python is installed on the PC	
+Ensure that both Windows and macOS users have Python and pipenv installed on their systems before following these steps.
+Include details on creating a superuser for accessing the Django admin interface.
+Make sure to specify how to run the development server and access the web application in both cases.
